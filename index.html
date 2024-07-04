@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Message</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Info.</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center bg-primary text-white">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">Showcasing my skills and projects</p>
+        </div>
+    </header>
+
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>I am a passionate and driven software developer with a degree in Computer Science. My academic background has provided me with a solid foundation in software engineering principles, algorithms, and data structures, while my hands-on project experience has honed my skills in developing robust and scalable applications.
+
+            Throughout my studies and professional journey, I have developed a keen interest in solving complex problems and creating efficient solutions through code. My proficiency in languages such as JavaScript, Python, and Java, combined with my experience in web development frameworks like React and Node.js, enables me to build innovative and user-friendly applications.
+            
+            I am committed to continuous learning and staying up-to-date with the latest technologies and industry trends. My goal is to leverage my skills and knowledge to contribute to impactful projects and drive success for forward-thinking companies. Let's create something amazing together!
+            
+            </p>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="assets/project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Brief description of Project 1.</p>
+                        <a href="projects/project1.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for more projects -->
+        </div>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Programming Languages</h4>
+                <ul>
+                    <li><strong>JavaScript:</strong> Proficient in building dynamic web applications with frameworks such as React and Node.js.</li>
+                    <li><strong>Python:</strong> Experienced in developing data-driven applications, web scraping, and automation scripts.</li>
+                    <li><strong>Java:</strong> Strong understanding of object-oriented programming principles and experience with building enterprise-level applications.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Web Development</h4>
+                <ul>
+                    <li><strong>Frontend:</strong> Skilled in HTML5, CSS3, JavaScript (ES6+), React, and Bootstrap for responsive and user-friendly web design.</li>
+                    <li><strong>Backend:</strong> Proficient in Node.js, Express.js, and RESTful API development.</li>
+                    <li><strong>Database:</strong> Experience with SQL databases like MySQL and PostgreSQL, and NoSQL databases like MongoDB.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Tools and Technologies</h4>
+                <ul>
+                    <li><strong>Version Control:</strong> Expertise in Git for source code management and collaboration.</li>
+                    <li><strong>IDEs and Editors:</strong> Proficient in Visual Studio Code, IntelliJ IDEA, and PyCharm.</li>
+                    <li><strong>DevOps:</strong> Familiar with Docker for containerization and Jenkins for continuous integration/continuous deployment (CI/CD).</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Additional Skills</h4>
+                <ul>
+                    <li><strong>Problem Solving:</strong> Strong analytical and debugging skills with a keen eye for detail.</li>
+                    <li><strong>Collaboration:</strong> Excellent team player with experience in Agile/Scrum methodologies.</li>
+                    <li><strong>Communication:</strong> Effective communicator with the ability to articulate technical concepts to non-technical stakeholders.</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <section id="contact" class="container my-5">
+        <h2>Message</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
